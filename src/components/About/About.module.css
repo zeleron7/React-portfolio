@@ -1,0 +1,15 @@
+@import "../../vars.css";
+
+.aboutTitle {
+    color: var(--color-text);
+    font-size: 35px;
+    margin-top: 200px;
+    margin-left: 300px;
+}
+
+.about {
+    color: var(--color-text);
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 300px;
+}

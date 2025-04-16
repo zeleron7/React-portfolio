@@ -1,10 +1,31 @@
 import styles from './App.module.css'
+import { Intro } from './components/Intro/Intro'
 import { Navbar } from './components/navbar/Navbar'
+import { About } from './components/About/About'
+
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
 
     return <div className={styles.App}>
+        <Router>
         <Navbar />
+        <Routes>
+          <Route path="/" element={
+            <>
+              <Intro />
+              {/* You can include About here too if you want on homepage */}
+              {/* <About /> */}
+              <section id="about">
+                  <About />
+                </section>
+            </>
+          } />
+          <Route path="/about" element={<About />} />
+        </Routes>
+      </Router>
+
+        
     </div>
 }
 

@@ -8,14 +8,16 @@
     padding-top: 61px;
     z-index: 2;
     margin: 0 10%;
-
+    
 }
 
 .title {
+    position: relative;
     font-size: 30px;
     font-weight: 600;
     text-decoration: none;
     color: var(--color-text);
+    right: -100px;
 }
 
 .menu {
@@ -25,7 +27,12 @@
 .menuItems {
     display: flex;
     gap: 47px;
+    margin-right: 100px;
+
+    /*remove dots from list item*/
     list-style: none;
+    
+  
 }
 
 .menuItems a {

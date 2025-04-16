@@ -5,5 +5,8 @@
     width: 100%;
     height: 100vh;
 
-    
+    /*removes white bar at bottom*/
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
