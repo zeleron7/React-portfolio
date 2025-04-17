@@ -1,4 +1,5 @@
 @import "../../vars.css";
+@import "tailwindcss";
 
 .aboutTitle {
     color: var(--color-text);
