@@ -2,6 +2,7 @@ import styles from './App.module.css'
 import { Intro } from './components/Intro/Intro'
 import { Navbar } from './components/navbar/Navbar'
 import { About } from './components/About/About'
+import { UseAnimationFrame } from './components/Cube/Cube' // adjust path if needed
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -10,10 +11,12 @@ function App() {
     return <div className={styles.App}>
         <Router>
         <Navbar />
+        <UseAnimationFrame />
         <Routes>
           <Route path="/" element={
             <>
               <Intro />
+              
               {/* You can include About here too if you want on homepage */}
               {/* <About /> */}
               <section id="about">

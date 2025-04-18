@@ -4,13 +4,27 @@
 .aboutTitle {
     color: var(--color-text);
     font-size: 35px;
-    margin-top: 200px;
-    margin-left: 300px;
+    margin-top: -500px;
+    margin-left: 50px;
 }
 
 .about {
     color: var(--color-text);
     font-size: 20px;
     margin-top: 50px;
-    margin-left: 300px;
+    margin-left: 50px;
+}
+
+.aboutContainer {
+    background-color: oklch(20.8% 0.042 265.755);
+    margin-top: 200px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.portrait {
+    width: 400px;
+    height: 400px;
+    margin-left: 950px;
+    margin-bottom: 100px;
 }

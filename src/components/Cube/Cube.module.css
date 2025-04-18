@@ -1,0 +1,72 @@
+@import "../../vars.css";
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cube {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    transform-style: preserve-3d;
+    margin-top: 250px;
+}
+
+.sidefront {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: rgba(0, 255, 255, 0.2);
+    border: 1px solid #00ffff;
+    transform: translateZ(100px);
+}
+
+.sideback {
+    position: absolute;
+    width: 200x;
+    height: 200px;
+    background: rgba(0, 255, 255, 0.2);
+    border: 1px solid #00ffff;
+    transform: rotateY(180deg) translateZ(100px);
+}
+
+.sideleft {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: rgba(0, 255, 255, 0.2);
+    border: 1px solid #00ffff;
+    transform: rotateY(-90deg) translateZ(100px);
+}
+
+.sideright {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: rgba(0, 255, 255, 0.2);
+    border: 1px solid #00ffff;
+    transform: rotateY(90deg) translateZ(100px);
+}
+
+.sidetop {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: rgba(0, 255, 255, 0.2);
+    border: 1px solid #00ffff;
+    transform: rotateX(90deg) translateZ(100px);
+}
+
+.sidebottom {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: rgba(0, 255, 255, 0.2);
+    border: 1px solid #00ffff;
+    transform: rotateX(-90deg) translateZ(100px);
+}
+
+  
+  
