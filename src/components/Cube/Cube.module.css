@@ -12,6 +12,12 @@
     height: 200px;
     transform-style: preserve-3d;
     margin-top: 250px;
+
+    /*remove?*/
+    transform: rotateX(-20deg) rotateY(30deg); 
+    animation: rotate 10s infinite linear; 
+
+    
 }
 
 .sidefront {
@@ -25,7 +31,7 @@
 
 .sideback {
     position: absolute;
-    width: 200x;
+    width: 200px;
     height: 200px;
     background: rgba(0, 255, 255, 0.2);
     border: 1px solid #00ffff;
@@ -66,6 +72,18 @@
     background: rgba(0, 255, 255, 0.2);
     border: 1px solid #00ffff;
     transform: rotateX(-90deg) translateZ(100px);
+}
+
+.sidefront,
+.sideback,
+.sideleft,
+.sideright,
+.sidetop,
+.sidebottom {
+    box-shadow: inset 0 0 20px rgba(0, 255, 255, 0.4);
+    background: linear-gradient(135deg, rgba(0,255,255,0.3), rgba(0,100,100,0.2));
+    border: 1px solid #00ffff;
+    backdrop-filter: blur(2px);
 }
 
   

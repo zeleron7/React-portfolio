@@ -4,27 +4,30 @@
 .aboutTitle {
     color: var(--color-text);
     font-size: 35px;
-    margin-top: -500px;
-    margin-left: 50px;
+    margin-top: -680px;
+    margin-left: 30px;
 }
 
 .about {
     color: var(--color-text);
     font-size: 20px;
-    margin-top: 50px;
-    margin-left: 50px;
+    margin-top: 25px;
+    margin-left: 30px;
 }
 
 .aboutContainer {
     background-color: oklch(20.8% 0.042 265.755);
-    margin-top: 200px;
+    margin-top: 250px;
     margin-left: 10%;
     margin-right: 10%;
+    padding-bottom: 15px;
 }
 
 .portrait {
-    width: 400px;
-    height: 400px;
-    margin-left: 950px;
-    margin-bottom: 100px;
+    width: 350px;
+    height: 350px;
+    margin-left: 1000px;
+    margin-bottom: 300px;
 }
+
+

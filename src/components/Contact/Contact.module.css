@@ -1,0 +1,29 @@
+@import "../../vars.css";
+
+.contactTitle {
+    color: var(--color-text);
+    font-size: 35px;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.contactLink {
+    color: var(--color-text);
+    text-decoration: none;
+    font-size: 20px;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center; 
+    gap: 15px; 
+    margin-top: 25px;
+}
+
+.contactList {
+    color: var(--color-text);
+    margin-left: 200px;
+    margin-top: 50px;
+    list-style: none;
+    padding-bottom: 50px;
+}
+
