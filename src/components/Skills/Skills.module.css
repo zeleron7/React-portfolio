@@ -3,6 +3,43 @@
 .skillsTitle {
     color: var(--color-text);
     font-size: 35px;
-    margin-top: 80px;
-    margin-left: 200px;
+    margin-top: 100px;
+    margin-left: 30px;
 }
+
+.skillsContainer {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 15px;
+}
+
+.skills {
+    color: var(--color-text); 
+    font-size: 18px;
+    background: oklch(60% 0.14 240); 
+    margin-top: 20px;
+    padding: 10px 20px; 
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    font-weight: 600;
+    width: 120px;
+    text-align: center;
+}
+
+.skillsGrid {
+    display: flex;
+    gap: 10px;
+    margin-left: 30px;
+ 
+}
+
+.skills:hover {
+    transform: translateY(-5px); /* Move the skill box up */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4); /* Add more shadow for depth on hover */
+}
+
+
+
+
+
+

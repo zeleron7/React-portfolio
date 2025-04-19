@@ -1,12 +1,10 @@
 import React, { useState } from 'react';
 import styles from './Navbar.module.css';
 
-import { Link } from 'react-router-dom';
-
 export const Navbar = () => {
   return (
     <nav className={styles.navbar}>
-    <Link className={styles.title} to="/">JM</Link>
+    <h1 className={styles.title}>JM</h1>
     <div className={styles.menu}>
       <ul className={styles.menuItems}>
         {/*<li><a href="#projects">Projects</a></li>*/}

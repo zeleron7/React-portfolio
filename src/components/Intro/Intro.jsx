@@ -15,8 +15,8 @@ export const Intro = () => {
       <a href="#contact" className={styles.contact}>Contact</a>
 
       <p className={styles.description}>
-        I am a passionate upcoming .NET developer from a small town in Sweden. I have a strong interest in backend development, I like working with API's and databases in particular 
-        and <br/> will graduate in May 2025.
+      I'm an upcoming .NET developer from a small town in Sweden, currently finishing my studies and set to graduate in end of May 2025. <br/>
+      I enjoy working behind the scenes on things like APIs and databases, and I'm especially interested in how different systems connect and communicate.
       </p>
       
     </div>
