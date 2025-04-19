@@ -9,7 +9,25 @@
 
 .highlight {
     color: #ff5722;
-  }
+}
+
+.contact {
+    color: var(--color-text); 
+    font-size: 18px;
+    background: oklch(60% 0.14 240); 
+    display: inline-block;
+    margin-left: 180px;
+    margin-top: 20px;
+    padding: 10px 20px; 
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    font-weight: 600;
+}
+
+.contact:hover {
+    color: var(--color-primary);
+    transition: 0.3s;
+}
 
 .description {
     color: var(--color-text);

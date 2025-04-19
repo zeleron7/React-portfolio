@@ -16,8 +16,6 @@
     /*remove?*/
     transform: rotateX(-20deg) rotateY(30deg); 
     animation: rotate 10s infinite linear; 
-
-    
 }
 
 .sidefront {

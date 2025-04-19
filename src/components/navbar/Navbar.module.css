@@ -28,15 +28,16 @@
     display: flex;
     gap: 47px;
     margin-right: -20px;
-    
-    /*remove dots from list item*/
-    list-style: none;
-    
-  
-}
-
-.menuItems a {
     font-size: 25px;
     color: var(--color-text);
     text-decoration: none;
+
+    /*remove dots from list item*/
+    list-style: none;
+}
+
+/*change color when hovering over navbar*/
+.menuItems :hover {
+    color: var(--color-primary);
+    transition: 0.3s;
 }

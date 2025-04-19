@@ -12,10 +12,13 @@ export const Intro = () => {
       .NET Developer
       </h1>
     
+      <a href="#contact" className={styles.contact}>Contact</a>
+
       <p className={styles.description}>
         I am a passionate upcoming .NET developer from a small town in Sweden. I have a strong interest in backend development, I like working with API's and databases in particular 
         and <br/> will graduate in May 2025.
       </p>
+      
     </div>
 
   )

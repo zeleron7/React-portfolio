@@ -3,6 +3,7 @@ import { Intro } from './components/Intro/Intro'
 import { Navbar } from './components/navbar/Navbar'
 import { About } from './components/About/About'
 import { Experience } from './components/Experience/Experience'
+import { Skills } from './components/Skills/Skills'
 import { Contact } from './components/Contact/Contact'
 import { UseAnimationFrame } from './components/Cube/Cube' 
 
@@ -29,12 +30,16 @@ function App() {
                   <Experience />
                 </section>
 
+                <section id="skills">
+                  <Skills />
+                </section>
+
                 <section id="contact">
                   <Contact />
                 </section>
             </>
           } />
-          <Route path="/about" element={<About />} />
+          <Route path="/" element={<></>} />
         </Routes>
       </Router>
 
