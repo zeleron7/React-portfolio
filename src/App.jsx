@@ -39,7 +39,6 @@ function App() {
                 </section>
             </>
           } />
-          <Route path="/" element={<></>} />
         </Routes>
       </Router>
 

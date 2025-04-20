@@ -27,8 +27,6 @@
     font-size: 25px;
     color: var(--color-text);
     text-decoration: none;
-
-    /*remove dots from list item*/
     list-style: none;
 }
 
@@ -36,4 +34,49 @@
 .menuItems :hover {
     color: var(--color-primary);
     transition: 0.3s;
+}
+
+.navmenu {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .menu {
+        position: relative;
+        right: 0;
+        margin-right: 10%;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 11px;
+        z-index: 3;
+    }
+
+    .navmenu {
+        display: block;
+        cursor: pointer;
+
+        /*fixa detta?*/
+        margin-left: 600px;
+        margin-top: -40px;
+    }
+
+    .menuItems {
+        display: none;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        gap: 13px;
+        border-radius: 10px;
+        background: rgb(25, 55, 109);
+        background: linear-gradient(0deg, rgba(25, 55, 109, 0.2) 0%, rgba(25, 55, 109, 0.2) 100%);
+    }
+
+    .menuOpen {
+        display: flex;
+        z-index: 1;
+    }
 }
