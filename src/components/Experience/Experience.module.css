@@ -7,21 +7,38 @@
 
 .experienceTitle {
     color: var(--color-text);
-    font-size: 35px;
+    font-size: 2rem;
     margin-top: 100px;
     margin-left: 30px;
 }
 
 .subtitle {
     color: var(--color-text);
-    font-size: 20px;
+    font-size: 1.5rem;
     margin-top: 50px; 
     margin-left: 30px;
 }
 
 .experience {
     color: var(--color-text);
-    font-size: 20px;
+    font-size: 1.3rem;
     margin-top: 50px;
     margin-left: 30px;
 }
+
+/* Tablet */
+@media (max-width: 1024px) {
+    .experienceContainer {
+        margin-top: -50px;
+    }
+    .experienceTitle {
+        font-size: 1.5rem;
+    }
+    .subtitle {
+        font-size: 1.3rem;
+    }
+    .experience {
+        font-size: 1.1rem;
+    }
+}
+

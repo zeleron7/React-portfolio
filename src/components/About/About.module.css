@@ -3,16 +3,17 @@
 
 .aboutTitle {
     color: var(--color-text);
-    font-size: 35px;
+    font-size: 2rem;
     margin-top: -680px;
     margin-left: 30px;
 }
 
 .about {
     color: var(--color-text);
-    font-size: 20px;
+    font-size: 1.3rem;
     margin-top: 25px;
     margin-left: 30px;
+    padding: auto;
 }
 
 .aboutContainer {
@@ -29,5 +30,29 @@
     margin-left: 1000px;
     margin-bottom: 300px;
 }
+
+/* Tablet */
+@media (max-width: 1024px) {
+    .aboutContainer {
+        margin-top: 90px;
+    }
+    .aboutTitle {
+        font-size: 1.5rem;
+    }
+    .about {
+        font-size: 1.1rem;
+    }
+}
+
+/* Large phones / small tablets */
+@media screen and (max-width: 768px) {
+    .aboutContainer {
+        margin-top: 50px;
+    }
+}
+
+
+
+
 
 

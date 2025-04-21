@@ -10,7 +10,7 @@
 }
 
 .title {
-    font-size: 30px;
+    font-size: 2rem;
     font-weight: 600;
     text-decoration: none;
     color: #ff5722;
@@ -24,13 +24,12 @@
     display: flex;
     gap: 47px;
     margin-right: -20px;
-    font-size: 25px;
+    font-size: 2rem;
     color: var(--color-text);
     text-decoration: none;
     list-style: none;
 }
 
-/*change color when hovering over navbar*/
 .menuItems :hover {
     color: var(--color-primary);
     transition: 0.3s;
@@ -40,10 +39,21 @@
     display: none;
 }
 
+/* Tablet */
+@media (max-width: 1024px) {
+     
+    .title {
+        font-size: 1.5rem;
+    }
+    .menuItems {
+        font-size: 1.5rem;
+    }
+}
+
+/* Large phones / small tablets */
 @media screen and (max-width: 768px) {
     .navbar {
-        flex-direction: column;
-        align-items: flex-start;
+        width: 90%;
     }
     .menu {
         position: relative;
@@ -58,10 +68,6 @@
     .navmenu {
         display: block;
         cursor: pointer;
-
-        /*fixa detta?*/
-        margin-left: 600px;
-        margin-top: -40px;
     }
 
     .menuItems {

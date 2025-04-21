@@ -84,5 +84,98 @@
     backdrop-filter: blur(2px);
 }
 
+/* Tablet */
+@media (max-width: 1024px) {
+
+    .cube {
+        width: 150px;
+        height: 150px;
+        margin-top: 200px;
+    }
+
+    .sidefront {
+        width: 150px;
+        height: 150px;
+        transform: translateZ(75px);
+    }
+    
+    .sideback {
+        width: 150px;
+        height: 150px;
+        transform: rotateY(180deg) translateZ(75px);
+    }
+    
+    .sideleft {
+        width: 150px;
+        height: 150px;
+        transform: rotateY(-90deg) translateZ(75px);
+    }
+    
+    .sideright {
+        width: 150px;
+        height: 150px;
+        transform: rotateY(90deg) translateZ(75px);
+    }
+    
+    .sidetop {
+        width: 150px;
+        height: 150px;
+        transform: rotateX(90deg) translateZ(75px);
+    }
+    
+    .sidebottom {
+        width: 150px;
+        height: 150px;
+        transform: rotateX(-90deg) translateZ(75px);
+    }
+
+}
+
+/* Large phones / small tablets */
+@media screen and (max-width: 768px) {
+    .cube {
+        width: 100px;
+        height: 100px;
+        margin-top: 200px;
+    }
+
+    .sidefront {
+        width: 100px;
+        height: 100px;
+        transform: translateZ(50px);
+    }
+    
+    .sideback {
+        width: 100px;
+        height: 100px;
+        transform: rotateY(180deg) translateZ(50px);
+    }
+    
+    .sideleft {
+        width: 100px;
+        height: 100px;
+        transform: rotateY(-90deg) translateZ(50px);
+    }
+    
+    .sideright {
+        width: 100px;
+        height: 100px;
+        transform: rotateY(90deg) translateZ(50px);
+    }
+    
+    .sidetop {
+        width: 100px;
+        height: 100px;
+        transform: rotateX(90deg) translateZ(50px);
+    }
+    
+    .sidebottom {
+        width: 100px;
+        height: 100px;
+        transform: rotateX(-90deg) translateZ(50px);
+    }
+    
+}
+
   
   

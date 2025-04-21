@@ -9,7 +9,7 @@
 
 .contactTitle {
     color: var(--color-text);
-    font-size: 35px;
+    font-size: 2rem;
     margin-left: 30px;
     margin-top: 50px;
 }
@@ -17,7 +17,7 @@
 .contactLink {
     color: var(--color-text);
     text-decoration: none;
-    font-size: 20px;
+    font-size: 1.3rem;
     width: 2.5rem;
     height: 2.5rem;
     display: flex;
@@ -32,5 +32,18 @@
     margin-top: 20px;
     list-style: none;
     padding-bottom: 50px;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+    .contactContainer {
+        margin-top: 50px;
+    }
+    .contactTitle {
+        font-size: 1.5rem;
+    }
+    .contactLink {
+        font-size: 1.1rem;
+    }
 }
 
