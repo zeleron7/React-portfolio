@@ -7,13 +7,15 @@ export const About = () => {
 
       <h1 className={styles.aboutTitle}>About Me</h1>
 
-      <p className={styles.about}>23 years old from Söderhamn, Sweden who is very committed and passionate about IT with a broad knowledge of computers. 
-       I'm currently studying to become a .NET developer in Gävle. I have a constant desire to develop and learn more. Since a very young age I've had
-       a big interest in computers which came from playing video games.</p>
+      <p className={styles.about}>I'm a 23-year-old from Söderhamn, Sweden, passionate about IT and equipped with broad knowledge of computers. 
+       I'm currently studying to become a .NET developer in Gävle and have a constant drive to grow and learn more. 
+       My interest in technology started at a young age, sparked by playing video games and exploring how computers work.</p>
 
-      <p className={styles.about}>I have a background as an electrician and worked with installing solar panels right after graduating. 
-       After a few months I developed pain in my heel which later turned out to be arthritis. 
-       This condition got me to change my career path and this is when i came across programming.</p>
+      <p className={styles.about}>
+        I have a background as an electrician and worked as a solar installer right after graduation. 
+        A few months into the job, I began experiencing heel pain, which was eventually diagnosed as arthritis. 
+        This challenge led me to reevaluate my career path and that's when I discovered programming, which quickly became my new passion.
+      </p>
 
     </div>
 

@@ -4,7 +4,7 @@ import { Navbar } from './components/navbar/Navbar'
 import { About } from './components/About/About'
 import { Experience } from './components/Experience/Experience'
 import { Skills } from './components/Skills/Skills'
-import { Contact } from './components/Contact/Contact'
+import { Socials } from './components/Socials/Socials'
 import { UseAnimationFrame } from './components/Cube/Cube' 
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
@@ -32,8 +32,8 @@ function App() {
                   <Skills />
                 </section>
 
-                <section id="contact">
-                  <Contact />
+                <section id="socials">
+                  <Socials />
                 </section>
             </>
           } />

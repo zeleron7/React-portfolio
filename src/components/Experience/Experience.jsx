@@ -1,4 +1,6 @@
 import styles from './Experience.module.css';
+import lia1 from '../../assets/lia1.png';
+import lia2 from '../../assets/lia2.png';
 
 export const Experience = () => {
   return (
@@ -8,14 +10,18 @@ export const Experience = () => {
 
         <h2 className={styles.subtitle}>Internship, Region Gävleborg</h2>
 
-         <p className={styles.experience}>Here i created a form from scratch that generates XML files. Each file represents a person with relevant data
-         (name, birth etc). The form was created with the ASP.NET Core MVC framework and according to the Swedish Tax Agency's structure.
-         This project has been very educational and expanded my knowledge in system development as i got to work with both backend and frontend.</p>
+         <p className={styles.experience}>
+          In this project, I created a form from scratch that generates XML files. Each file represents a person with relevant data
+          (name, birthdate, etc.). The form was built using the ASP.NET Core MVC framework and follows the structure required by the Swedish Tax Agency.
+          This project was very educational and significantly expanded my knowledge of system development, as I worked with both the backend and frontend.
+          </p>
 
           <h2 className={styles.subtitle}>Solar installer, OTM EKO Energi</h2>
 
-          <p className={styles.experience}>Here i worked in a team with others and my task was to install and connect solar panels on various properties. 
-          I worked on both small and large projects and had a lot of contact with other professional groups. This has given me great experience in communication</p>
+          <p className={styles.experience}>
+            In this role, I worked as part of a team, where my main task was to install and connect solar panels on various properties. 
+            I contributed to both small and large projects and had frequent contact with other professional groups. This experience greatly improved my communication skills.
+          </p>
 
         </div>
   )

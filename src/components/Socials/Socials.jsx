@@ -1,20 +1,20 @@
-import styles from './Contact.module.css';
+import styles from './Socials.module.css';
 import githubLogo from '../../assets/image 14.png';
 import linkedinLogo from '../../assets/image 13.png';
 
-export const Contact = () => {
+export const Socials = () => {
   return (
 
-    <div className={styles.contactContainer}>
+    <div className={styles.socialsContainer}>
         
-        <h1 className={styles.contactTitle}>Contact</h1>
+        <h1 className={styles.socialsTitle}>Socials</h1>
 
-        <ul className={styles.contactList}>
-            <li className={styles.contactLink}>
+        <ul className={styles.socialsList}>
+            <li className={styles.socialsLink}>
                 <img src={linkedinLogo} alt="linkedinLogo"/>
                 <a href="https://www.linkedin.com/in/jessiemartensson">Linkedin</a>
             </li>
-            <li className={styles.contactLink}>
+            <li className={styles.socialsLink}>
                 <img src={githubLogo} alt="githubLogo"/> 
                 <a href="https://github.com/zeleron7">Github</a>
             </li>

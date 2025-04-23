@@ -1,18 +1,18 @@
 @import "../../vars.css";
 
-.contactContainer {
+.socialsContainer {
     margin-top: 100px;
     margin-left: 15%;
     margin-right: 15%;
 }
 
-.contactTitle {
+.socialsTitle {
     color: var(--color-text);
     font-size: 2rem;
     margin-top: 50px;
 }
 
-.contactLink {
+.socialsLink {
     color: var(--color-primary);
     text-decoration: none;
     font-size: 1.3rem;
@@ -24,7 +24,7 @@
     margin-top: 10px;
 }
 
-.contactList {
+.socialsList {
     color: var(--color-text);
     margin-top: 20px;
     list-style: none;
@@ -33,20 +33,20 @@
 
 /* Tablet */
 @media (max-width: 1024px) {
-    .contactContainer {
+    .socialsContainer {
         margin-top: 75px;
     }
-    .contactTitle {
+    .socialsTitle {
         font-size: 1.5rem;
     }
-    .contactLink {
+    .socialsLink {
         font-size: 1.1rem;
     }
 }
 
 /* Large phones / small tablets */
 @media screen and (max-width: 768px) {
-    .contactContainer{
+    .socialsContainer{
         margin-top: 50px;
     }
 }
