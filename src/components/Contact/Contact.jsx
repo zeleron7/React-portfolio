@@ -12,11 +12,11 @@ export const Contact = () => {
         <ul className={styles.contactList}>
             <li className={styles.contactLink}>
                 <img src={linkedinLogo} alt="linkedinLogo"/>
-                <a href="https://www.linkedin.com/in/jessiemartensson">linkedin.com/jessiemartensson</a>
+                <a href="https://www.linkedin.com/in/jessiemartensson">Linkedin</a>
             </li>
             <li className={styles.contactLink}>
                 <img src={githubLogo} alt="githubLogo"/> 
-                <a href="https://github.com/zeleron7">github.com/zeleron7</a>
+                <a href="https://github.com/zeleron7">Github</a>
             </li>
         </ul>
 
