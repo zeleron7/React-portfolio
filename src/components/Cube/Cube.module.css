@@ -10,10 +10,10 @@
     position: relative;
     width: 200px;
     height: 200px;
+    
     transform-style: preserve-3d;
     margin-top: 350px;
 
-    /*remove?*/
     transform: rotateX(-20deg) rotateY(30deg); 
     animation: rotate 10s infinite linear; 
 }
@@ -84,98 +84,72 @@
     backdrop-filter: blur(2px);
 }
 
-/* Tablet */
-@media (max-width: 1024px) {
-
+@media screen and (max-width: 1700px) {
+    .container {
+        display: flex;
+        justify-content: flex-end;
+    }
     .cube {
-        width: 150px;
-        height: 150px;
-        margin-top: 200px;
+        margin-right: 35%;
     }
-
-    .sidefront {
-        width: 150px;
-        height: 150px;
-        transform: translateZ(75px);
-    }
-    
-    .sideback {
-        width: 150px;
-        height: 150px;
-        transform: rotateY(180deg) translateZ(75px);
-    }
-    
-    .sideleft {
-        width: 150px;
-        height: 150px;
-        transform: rotateY(-90deg) translateZ(75px);
-    }
-    
-    .sideright {
-        width: 150px;
-        height: 150px;
-        transform: rotateY(90deg) translateZ(75px);
-    }
-    
-    .sidetop {
-        width: 150px;
-        height: 150px;
-        transform: rotateX(90deg) translateZ(75px);
-    }
-    
-    .sidebottom {
-        width: 150px;
-        height: 150px;
-        transform: rotateX(-90deg) translateZ(75px);
-    }
-
 }
 
-/* Large phones / small tablets */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1400px) {
+    .container {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .cube {
+        margin-right: 20%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        
+    }
     .cube {
         width: 100px;
         height: 100px;
         margin-top: 200px;
+        margin-right: 0;
     }
-
     .sidefront {
         width: 100px;
         height: 100px;
         transform: translateZ(50px);
     }
-    
     .sideback {
         width: 100px;
         height: 100px;
         transform: rotateY(180deg) translateZ(50px);
     }
-    
     .sideleft {
         width: 100px;
         height: 100px;
         transform: rotateY(-90deg) translateZ(50px);
     }
-    
     .sideright {
         width: 100px;
         height: 100px;
         transform: rotateY(90deg) translateZ(50px);
     }
-    
     .sidetop {
         width: 100px;
         height: 100px;
         transform: rotateX(90deg) translateZ(50px);
     }
-    
     .sidebottom {
         width: 100px;
         height: 100px;
         transform: rotateX(-90deg) translateZ(50px);
     }
-    
 }
+
+
+
 
   
   

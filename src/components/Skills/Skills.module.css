@@ -9,12 +9,6 @@
 .skillsContainer {
     margin-left: 15%;
     margin-right: 15%;
-    /*display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;*/
-    padding-bottom: 15px;
-    
 }
 
 .skills {
@@ -49,6 +43,13 @@
         font-size: 1.1rem;
     }
     .skillsContainer {
+        margin-top: -25px;
+    }
+}
+
+/* Large phones / small tablets */
+@media screen and (max-width: 768px) {
+    .skillsContainer {
         margin-top: -50px;
     }
 }
@@ -58,8 +59,7 @@
    .skillsGrid {
         display: flex;
         flex-direction: column;
-        gap: 4px;
-        
+        gap: 2px;
     }
 }
 

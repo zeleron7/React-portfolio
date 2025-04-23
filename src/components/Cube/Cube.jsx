@@ -6,7 +6,6 @@ export function UseAnimationFrame() {
   const ref = useRef(null)
   const [ready, setReady] = useState(false)
 
-  // Set 'ready' after component mounts to ensure ref exists
   useEffect(() => {
     setReady(true)
   }, [])

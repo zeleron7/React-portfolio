@@ -20,8 +20,6 @@ export const Intro = () => {
       I enjoy working behind the scenes on things like APIs and databases, and I'm especially interested in how different systems connect and communicate.
       </p>
 
-      
-
     </div>
 
   )

@@ -20,9 +20,6 @@ function App() {
             <>
               <Intro />
               
-              {/* You can include About here too if you want on homepage */}
-              {/* <About /> */}
-              
               <section id="about">
                   <About />
                 </section>

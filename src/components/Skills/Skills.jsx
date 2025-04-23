@@ -1,7 +1,5 @@
 import styles from './Skills.module.css';
 
-
-
 export const Skills = () => {
   return (
 

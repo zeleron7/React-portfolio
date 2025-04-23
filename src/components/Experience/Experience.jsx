@@ -8,10 +8,6 @@ export const Experience = () => {
 
         <h2 className={styles.subtitle}>Internship, Region Gävleborg</h2>
 
-         {/*<p className={styles.experience}>Here i created a form from scratch that generates XML files. Each file represents a person with relevant data <br/>
-         (name, birth etc). The form was created with the ASP.NET Core MVC framework and according to the <br/> Swedish Tax Agency's structure.
-         This project has been very educational and expanded my knowledge <br/> in system development as i got to work with both backend and frontend.</p>*/}
-
          <p className={styles.experience}>Here i created a form from scratch that generates XML files. Each file represents a person with relevant data
          (name, birth etc). The form was created with the ASP.NET Core MVC framework and according to the Swedish Tax Agency's structure.
          This project has been very educational and expanded my knowledge in system development as i got to work with both backend and frontend.</p>
