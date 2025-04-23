@@ -54,14 +54,16 @@
     }
 }
 
-/* Small phones */
-@media (max-width: 480px) {
-   .skillsGrid {
-        display: flex;
-        flex-direction: column;
-        gap: 2px;
-    }
-}
+
+@media (max-width: 600px) {
+    .skillsGrid {
+         display: flex;
+         flex-direction: column;
+         gap: 2px;
+     }
+ }
+
+
 
 
 
