@@ -10,7 +10,7 @@
     color: #ff5722;
 }
 
-.contact {
+.socials {
     color: var(--color-text); 
     font-size: 1.3rem;
     background: oklch(60% 0.14 240); 
@@ -22,7 +22,7 @@
     font-weight: 600;
 }
 
-.contact:hover {
+.socials:hover {
     color: var(--color-primary);
     transition: 0.3s;
 }
