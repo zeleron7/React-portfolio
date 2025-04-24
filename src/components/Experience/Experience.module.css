@@ -23,6 +23,38 @@
     
 }
 
+/*Image*/
+.imageContainer {
+    padding-top: 10px;
+    z-index: 1;
+  }
+  
+  .showImage {
+    color: var(--color-text);
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 1.5rem;
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  .image {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 8px;
+  }
+
 /* Tablet */
 @media (max-width: 1024px) {
     .experienceContainer {
@@ -43,6 +75,13 @@
 @media screen and (max-width: 768px) {
     .experienceContainer {
         margin-top: 50px;
+    }
+    .showImage {
+        font-size: 1.3rem;
+    }
+    .image {
+        width: 80%;
+        height: auto;
     }
 }
 

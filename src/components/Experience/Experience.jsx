@@ -1,8 +1,38 @@
+import React, { useState } from 'react';
+import { useRef } from 'react';
+import { useEffect } from 'react';
 import styles from './Experience.module.css';
-import lia1 from '../../assets/lia1.png';
+import liaprojekt from '../../assets/liabild.png';
 import lia2 from '../../assets/lia2.png';
 
 export const Experience = () => {
+
+  const [showImage, setShowImage] = useState(false);
+  const imageRef = useRef(null);
+
+  const handleClick = () => {
+    setShowImage(true);
+  };
+
+  const handleOutsideClick = (event) => {
+    if (imageRef.current && !imageRef.current.contains(event.target)) {
+      setShowImage(false);
+    }
+  };
+
+  useEffect(() => {
+    if (showImage) {
+      document.addEventListener("mousedown", handleOutsideClick);
+    } else {
+      document.removeEventListener("mousedown", handleOutsideClick);
+    }
+
+    return () => {
+      document.removeEventListener("mousedown", handleOutsideClick);
+    };
+  }, [showImage]);
+
+
   return (
 
     <div className={styles.experienceContainer}>
@@ -15,6 +45,22 @@ export const Experience = () => {
           (name, birthdate, etc.). The form was built using the ASP.NET Core MVC framework and follows the structure required by the Swedish Tax Agency.
           This project was very educational and significantly expanded my knowledge of system development, as I worked with both the backend and frontend.
           </p>
+
+          <div className={styles.imageContainer}>
+            <a className={styles.showImage} onClick={handleClick}>Photo</a>
+
+            {showImage && (
+              <div className={styles.overlay} onClick={() => setShowImage(false)} ref={imageRef}>
+                <img
+                  src={liaprojekt}
+                  alt="LIA 1"
+                  className={styles.image}
+                  onClick={(e) => e.stopPropagation()} // prevents closing when image is clicked
+                />
+              </div>
+            )}
+          </div>
+          
 
           <h2 className={styles.subtitle}>Solar installer, OTM EKO Energi</h2>
 

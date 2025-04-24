@@ -107,8 +107,7 @@
 @media screen and (max-width: 1024px) {
     .container {
         display: flex;
-        justify-content: center;
-        
+        justify-content: center; 
     }
     .cube {
         width: 100px;
