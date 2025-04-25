@@ -3,12 +3,18 @@ import { useRef } from 'react';
 import { useEffect } from 'react';
 import styles from './Experience.module.css';
 import liaprojekt from '../../assets/liabild.png';
-import lia2 from '../../assets/lia2.png';
+import otmprojekt from '../../assets/otmprojekt.png';
 
 export const Experience = () => {
 
+  // Hooks
   const [showImage, setShowImage] = useState(false);
+  const [showImageTwo, setShowImageTwo] = useState(false);
+
   const imageRef = useRef(null);
+  const imageRefTwo = useRef(null);
+
+  // Image 1 (liaprojekt)
 
   const handleClick = () => {
     setShowImage(true);
@@ -32,6 +38,33 @@ export const Experience = () => {
     };
   }, [showImage]);
 
+  // Image 2 (otmprojekt)
+
+  const handleClickTwo = () => {
+    setShowImageTwo(true);
+  };
+
+  const handleOutsideClickTwo = (event) => {
+    console.log('test')
+    if (imageRefTwo.current && !imageRefTwo.current.contains(event.target)) {
+      setShowImageTwo(false);
+    }
+  };
+
+  useEffect(() => {
+    if (showImageTwo) {
+      document.addEventListener("mousedown", handleOutsideClickTwo);
+    } else {
+      document.removeEventListener("mousedown", handleOutsideClickTwo);
+    }
+
+    return () => {
+      document.removeEventListener("mousedown", handleOutsideClickTwo);
+    };
+  }, [showImageTwo]);
+
+  
+
 
   return (
 
@@ -53,9 +86,9 @@ export const Experience = () => {
               <div className={styles.overlay} onClick={() => setShowImage(false)} ref={imageRef}>
                 <img
                   src={liaprojekt}
-                  alt="LIA 1"
-                  className={styles.image}
-                  onClick={(e) => e.stopPropagation()} // prevents closing when image is clicked
+                  alt="Picture of my internship project"
+                  className={styles.imageOne}
+                  onClick={(e) => e.stopPropagation()} 
                 />
               </div>
             )}
@@ -68,6 +101,22 @@ export const Experience = () => {
             In this role, I worked as part of a team, where my main task was to install and connect solar panels on various properties. 
             I contributed to both small and large projects and had frequent contact with other professional groups. This experience greatly improved my communication skills.
           </p>
+
+          <div className={styles.imageContainer}>
+            <a className={styles.showImage} onClick={handleClickTwo}>Photo</a>
+
+              {showImageTwo && (
+                <div className={styles.overlay} onClick={() => setShowImageTwo(false)} ref={imageRefTwo}>
+                  <img
+                    src={otmprojekt}
+                    alt="Picture from when I worked as a solar installer"
+                    className={styles.imageTwo}
+                    onClick={(e) => e.stopPropagation()}
+                  />
+                </div>
+              )}
+            </div>
+
 
         </div>
   )

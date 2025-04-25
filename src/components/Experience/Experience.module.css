@@ -35,6 +35,10 @@
     text-decoration: underline;
     font-size: 1.5rem;
   }
+
+  .showImage:hover {
+    color: var(--color-primary);
+  }
   
   .overlay {
     position: fixed;
@@ -49,9 +53,15 @@
     z-index: 1000;
   }
   
-  .image {
+  .imageOne {
     max-width: 90%;
     max-height: 90%;
+    border-radius: 8px;
+  }
+
+  .imageTwo {
+    max-width: 90%;
+    max-height: 85%;
     border-radius: 8px;
   }
 
