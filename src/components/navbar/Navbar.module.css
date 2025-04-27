@@ -89,6 +89,6 @@
 /* Small phones */
 @media screen and (max-width: 480px) {
     .navbar {
-       padding-top: 20px;
+       padding-top: 10px;
     }
 }
