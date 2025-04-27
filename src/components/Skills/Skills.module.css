@@ -3,10 +3,10 @@
 .skillsTitle {
     color: var(--color-text);
     font-size: 2rem;
-    margin-top: 100px;
 }
 
 .skillsContainer {
+    margin-top: 80px;
     margin-left: 15%;
     margin-right: 15%;
 }
