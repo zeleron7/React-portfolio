@@ -53,7 +53,7 @@
 /* Small phones */
 @media screen and (max-width: 480px) {
     .socialsList {
-        padding-bottom: 30px;
+        padding-bottom: 20px;
     }
 }
 
