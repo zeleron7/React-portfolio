@@ -101,6 +101,7 @@
     }
     .cube {
         margin-right: 20%;
+        margin-bottom: 20px;
     }
 }
 
@@ -150,9 +151,13 @@
 /* Large phones / small tablets */
 @media screen and (max-width: 768px) {
     .container {
-        margin-top: 20px;
+        margin-top: 50px;
     }
 }
+
+
+
+
 
 
 
