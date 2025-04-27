@@ -78,15 +78,15 @@
     .experience {
         font-size: 1.1rem;
     }
+    .showImage {
+        font-size: 1.1rem;
+    }
 }
 
 /* Large phones / small tablets */
 @media screen and (max-width: 768px) {
     .experienceContainer {
         margin-top: 50px;
-    }
-    .showImage {
-        font-size: 1.3rem;
     }
     .image {
         width: 80%;
