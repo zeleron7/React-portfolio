@@ -54,14 +54,14 @@
   }
   
   .imageOne {
-    max-width: 90%;
-    max-height: 90%;
+    max-width: 60dvh;
+    max-height: 60dvh;
     border-radius: 8px;
   }
 
   .imageTwo {
-    max-width: 90%;
-    max-height: 85%;
+    max-width: 60dvh;
+    max-height: 60dvh;
     border-radius: 8px;
   }
 
