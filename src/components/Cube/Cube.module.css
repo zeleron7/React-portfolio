@@ -157,8 +157,8 @@
 
 /* Small phones */
 @media screen and (max-width: 480px) {
-    .cube {
-       margin-top: 220px;
+    .container {
+        margin-top: 100px;
     }
 }
 
