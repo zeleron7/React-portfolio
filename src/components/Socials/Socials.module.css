@@ -51,3 +51,10 @@
     }
 }
 
+/* Small phones */
+@media screen and (max-width: 480px) {
+    .socialsList {
+        padding-bottom: 30px;
+    }
+}
+
