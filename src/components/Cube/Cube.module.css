@@ -155,12 +155,7 @@
     }
 }
 
-/* Small phones */
-@media screen and (max-width: 480px) {
-    .container {
-        margin-top: 100px;
-    }
-}
+
 
 
 
