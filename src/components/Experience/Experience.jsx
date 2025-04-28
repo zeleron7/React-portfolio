@@ -15,7 +15,6 @@ export const Experience = () => {
   const imageRefTwo = useRef(null);
 
   // Image 1 (liaprojekt)
-
   const handleClick = () => {
     setShowImage(true);
   };
@@ -39,7 +38,6 @@ export const Experience = () => {
   }, [showImage]);
 
   // Image 2 (otmprojekt)
-
   const handleClickTwo = () => {
     setShowImageTwo(true);
   };
@@ -62,9 +60,6 @@ export const Experience = () => {
       document.removeEventListener("mousedown", handleOutsideClickTwo);
     };
   }, [showImageTwo]);
-
-  
-
 
   return (
 
@@ -94,7 +89,6 @@ export const Experience = () => {
             )}
           </div>
           
-
           <h2 className={styles.subtitle}>Solar installer, OTM EKO Energi</h2>
 
           <p className={styles.experience}>
@@ -116,8 +110,7 @@ export const Experience = () => {
                 </div>
               )}
             </div>
-
-
+            
         </div>
   )
 }

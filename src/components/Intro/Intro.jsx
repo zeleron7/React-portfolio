@@ -1,6 +1,4 @@
-//import React, { useState } from 'react';
 import styles from './Intro.module.css';
-
 
 export const Intro = () => {
   return (
@@ -21,6 +19,5 @@ export const Intro = () => {
       </p>
 
     </div>
-
   )
 }
