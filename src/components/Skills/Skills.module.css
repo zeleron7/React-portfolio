@@ -47,6 +47,13 @@
     }
 }
 
+/* Large phones / small tablets */
+@media screen and (max-width: 768px) {
+    .skillsContainer {
+        margin-top: 50px;
+    }
+}
+
 @media (max-width: 600px) {
     .skillsGrid {
         display: flex;

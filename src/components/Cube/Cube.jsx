@@ -19,7 +19,7 @@ export function UseAnimationFrame() {
   })
 
   return (
-    <div className={styles.container}>
+    <div className={styles.cubeContainer}>
       <div className={styles.cube} ref={ref}>
         <div className={styles.sidefront} />
         <div className={styles.sideback} />

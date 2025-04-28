@@ -1,6 +1,6 @@
 @import "../../vars.css";
 
-.container {
+.cubeContainer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -85,7 +85,7 @@
 }
 
 @media screen and (max-width: 1700px) {
-    .container {
+    .cubeContainer {
         display: flex;
         justify-content: flex-end;
     }
@@ -95,7 +95,7 @@
 }
 
 @media screen and (max-width: 1400px) {
-    .container {
+    .cubeContainer {
         display: flex;
         justify-content: flex-end;
     }
@@ -106,7 +106,7 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .container {
+    .cubeContainer {
         display: flex;
         justify-content: center; 
     }
@@ -150,14 +150,14 @@
 
 /* Large phones / small tablets */
 @media screen and (max-width: 768px) {
-    .container {
+    .cubeContainer {
         margin-top: 50px;
     }
 }
 
 /* Small phones */
 @media screen and (max-width: 480px) {
-    .container {
+    .cubeContainer {
         margin-top: 10px;
     }
 }
