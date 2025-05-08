@@ -71,7 +71,7 @@ export const Experience = () => {
          <p className={styles.experience}>
           In this project, I created a form from scratch that generates XML files. Each file represents a person with relevant data
           (name, birthdate, etc.). The form was built using the ASP.NET Core MVC framework and follows the structure required by the Swedish Tax Agency.
-          This project was very educational and significantly expanded my knowledge of system development, as I worked with both the backend and frontend.
+          This project was very educational and significantly expanded my knowledge of software development, as I worked with both the backend and frontend.
           </p>
 
           <div className={styles.imageContainer}>
